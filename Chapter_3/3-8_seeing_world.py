@@ -26,10 +26,39 @@ Print the list to show that its order has changed.
 
 places = ['Tokyo', 'Paris', 'Berlin', 'New York', 'Mexico City', 'Medellin']
 
-print(places)
-
+print()
 print(f'Sorted List: {sorted(places)}')
 
-
+print()
 print(f'Original List: {places}')
+print()
 
+
+places.reverse()
+print(f'Printing Reverse List: {places}')
+
+print()
+places.reverse()
+print(f'Printing Original List: {places}')
+print()
+
+places.sort()
+print(f'Sorting List: {places}')
+print()
+
+
+places.sort(reverse=True)
+print(f'Sorting List on reverse order: {places}')
+print()
+
+
+"""
+3-9. Dinner Guests: Working with one of the programs from Exercises 3-4
+through 3-7 (page 42), use len() to print a message indicating the number
+of people you are inviting to dinner.
+"""
+
+# note will use same places list
+print()
+print(f'The number of places to go in the list are: {len(places)}')
+print()
